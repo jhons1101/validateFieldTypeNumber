@@ -14,9 +14,15 @@ A continuación, dos maneras de validar la longitud de un campo de tipo 'number'
 
 &#60;script&#62;
     function maxlengthNumber (obj) {
+    
         console.log(obj.value);
+        
         if (obj.value.length > obj.maxLength) {
+        
             obj.value = obj.value.slice(0, obj.maxLength);
+            
         }
+        
     }
+    
 &#60;/script&#62;
