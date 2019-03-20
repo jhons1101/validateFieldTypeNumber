@@ -13,6 +13,7 @@ A continuación, dos maneras de validar la longitud de un campo de tipo 'number'
 &#60;input type="number" maxlength="4" name="year" class="form-control" oninput="maxlengthNumber(this);"&#62;
 
 &#60;script&#62;
+
     function maxlengthNumber (obj) {
     
         console.log(obj.value);
